@@ -1,0 +1,147 @@
+.book {
+	
+}
+
+.book .cover, #book-detail .cover {
+	-webkit-box-shadow: 0 10px 20px 1px #ccc;
+   -moz-box-shadow: 0 10px 20px 1px #ccc;
+        box-shadow: 0 10px 20px 1px #ccc;
+	width: 100%;
+}
+
+.book .cover {
+	cursor: pointer;
+}
+
+#book-detail .actions {
+	margin-top: 2em;
+}
+
+#book-list-pager {
+	margin-bottom: 5em;
+	text-align: center;
+	clear: both;
+}
+
+#book-list-pager button {
+	width: 12em;
+	height: 5em;
+}
+
+#book-list-pager button.prev {
+	margin-right: 2em;
+}
+
+#book-list-pager button.next {
+	margin-left: 2em;
+}
+
+/*
+@media (min-width: 1px) {
+	.book {
+		height: 5em;
+		margin-bottom: 2em;
+	}
+	.book .cover {
+		width: 75%;
+	}
+	.col-xs-3 {
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 480px) {
+	.book {
+		height: 28em;
+		margin-bottom: 2em;
+	}
+	.book .cover {
+		width: 85%;
+	}
+	.col-xs-3 {
+		width: 50%;
+	}
+}
+@media (min-width: 768px) {
+  .book {
+		height: 20em;
+		margin-bottom: 0em;
+	}
+	.book .cover {
+		width: 75%;
+	}
+	.col-xs-3 {
+		width: 33%;
+	}
+}
+@media (min-width: 992px) {
+	.book {
+		height: 25em;
+		margin-bottom: 2em;
+	}
+	.book .cover {
+		width: 75%;
+	}
+	.col-xs-3 {
+		width: 33%;
+	}
+}*/
+
+/* iphone */
+@media (min-width: 568px) {
+	.book {
+		height: 28em;
+		margin-bottom: 2em;
+	}
+	.book .cover {
+		width: 85%;
+	}
+	.col-xs-3 {
+		width: 50%;
+	}
+}
+
+@media (min-width: 700px) {
+	.book {
+		height: 17em;
+		margin-bottom: 2em;
+	}
+	.book .cover {
+		width: 75%;
+	}
+	.col-xs-3 {
+		width: 33%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.book {
+		height: 25em;
+		margin-bottom: 2em;
+	}
+	.book .cover {
+		width: 75%;
+	}
+	.col-xs-3 {
+		width: 33%;
+	}
+}
+
+@media (min-width: 1200px) {
+  	.book {
+		height: 20em;
+		margin-bottom: 5em;
+	}
+	.book .cover {
+		width: 75%;
+	}
+	.col-xs-3 {
+		width: 25%;
+	}
+
+	#book-detail .cover {
+	}
+}
+
+/*  and (orientation: landscape) */
